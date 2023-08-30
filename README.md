@@ -9,15 +9,19 @@
   -  Language : ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 
 ## 💡 Development Features
-![웹 캡처_31-8-2023_11741_](https://github.com/r3795/GameWebIntroduce/assets/105268338/37f7ecdb-a035-4302-839a-8bafdbe913da)
-![웹 캡처_31-8-2023_1180_](https://github.com/r3795/GameWebIntroduce/assets/105268338/edf26a7d-1bdb-4f3e-812d-780ab7d78dfa)
-![웹 캡처_31-8-2023_11822_](https://github.com/r3795/GameWebIntroduce/assets/105268338/eb3b7c82-15ba-4f29-aea6-e719dbb3af91)
-![웹 캡처_31-8-2023_11835_](https://github.com/r3795/GameWebIntroduce/assets/105268338/ae21295e-876e-4920-b5e1-f92720084085)
-![웹 캡처_31-8-2023_11847_](https://github.com/r3795/GameWebIntroduce/assets/105268338/70295464-e053-4fc5-93ae-735250d49af8)
-![웹 캡처_31-8-2023_1194_](https://github.com/r3795/GameWebIntroduce/assets/105268338/8a5d077a-1b23-4778-838c-1c0cadd1878b)
-![웹 캡처_31-8-2023_11930_](https://github.com/r3795/GameWebIntroduce/assets/105268338/dfbf750c-4126-4603-96b9-95d5e33cee95)
-![웹 캡처_31-8-2023_11946_](https://github.com/r3795/GameWebIntroduce/assets/105268338/dd0c11f3-b02b-4f76-acc1-122ce2d492de)
-![웹 캡처_31-8-2023_1202_](https://github.com/r3795/GameWebIntroduce/assets/105268338/34e8609c-76a7-4352-8577-8632ec2867b6)
-![웹 캡처_31-8-2023_12019_](https://github.com/r3795/GameWebIntroduce/assets/105268338/ef8e4811-decf-4189-9e76-e7cb556c5673)
-![웹 캡처_31-8-2023_12045_](https://github.com/r3795/GameWebIntroduce/assets/105268338/0900d7bd-38fb-4857-b077-d42440efafff)
-![웹 캡처_31-8-2023_1218_](https://github.com/r3795/GameWebIntroduce/assets/105268338/51b2297a-af11-4d3a-9ad6-0114d26b55d3)
+![1](https://github.com/r3795/GameWebIntroduce/assets/105268338/60dca0de-b395-470c-a39f-459348f3023f)
+![2](https://github.com/r3795/GameWebIntroduce/assets/105268338/16eb78d4-5338-469d-8478-a9cf04e53e98)
+![3](https://github.com/r3795/GameWebIntroduce/assets/105268338/60d0494d-6598-4a93-afe3-0147b96f0a9e)
+![4](https://github.com/r3795/GameWebIntroduce/assets/105268338/650cc373-0c61-461b-a964-e0084b980a83)
+![5](https://github.com/r3795/GameWebIntroduce/assets/105268338/1aff13dc-0bec-4cae-8419-b2863900c19d)
+![6](https://github.com/r3795/GameWebIntroduce/assets/105268338/67928bd1-e949-4412-b203-2622b557e2e4)
+![7](https://github.com/r3795/GameWebIntroduce/assets/105268338/2f969501-42e5-41fd-a7f3-388d9f555c23)
+![8](https://github.com/r3795/GameWebIntroduce/assets/105268338/e937a481-d057-4a89-9000-4f777531637b)
+![9](https://github.com/r3795/GameWebIntroduce/assets/105268338/1f8dce55-435d-4c19-98c1-a7ae458b8258)
+![10](https://github.com/r3795/GameWebIntroduce/assets/105268338/eaf88e8d-06f0-4d38-b9c4-db0bea393551)
+![11](https://github.com/r3795/GameWebIntroduce/assets/105268338/9f1d1b21-19e9-4546-a9f5-bc7d43131904)
+![12](https://github.com/r3795/GameWebIntroduce/assets/105268338/8718f237-2364-4ae4-aedb-c17e25e9fb24)
+
+## 💡 Simulation Video
+https://github.com/r3795/GameWebIntroduce/assets/105268338/12a0bbdf-a263-4cfb-9fdc-841e68f3f67a
+
