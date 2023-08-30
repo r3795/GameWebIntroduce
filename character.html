@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>201812633</title>
+    <link rel="stylesheet" href="lightbox.min.css">
+    <style>
+        * 
+        { 
+            margin: 0; padding: 0; 
+        }
+        .container
+        {
+            margin: 0 auto;
+            width: 1080px;
+            margin-bottom: 8px;
+            overflow: hidden;
+        }
+        .container > audio
+        {
+            float: right;
+        }
+        body
+        {
+            background-image: url("3.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 110vh;
+            max-width: 100%;
+        }
+        #top
+        {
+            position: relative;
+            border-radius: 10px;
+            width: 1080px;
+            height: 500px;
+            overflow: hidden;
+        }
+        #top > iframe
+        {
+            position: absolute;
+            bottom: 50px;
+            right: 15px;
+            width: 500px;
+            height: 250px;
+            border-radius: 10px;
+            z-index: 10;
+        }
+        #menu
+        {
+            position: absolute;
+            left: 20px;
+            bottom: 50px;
+            width: 450px;
+            background: rgba(0, 0, 0, 0.596);
+            text-align: center;
+            z-index: 10;
+            border-radius: 10px;
+            padding-left: 20px;
+            border: 1px solid white;
+        }
+        #menu > a > li
+        {
+            
+            padding: 8px 10px;
+            float: left;
+            list-style-type: none;
+            padding-left: 0px;
+            font-size: 200%;
+            font-family: fantasy;
+            text-align: center;
+            color: white;
+            
+        }
+        #menu > a > li:hover
+        {
+            color: rgba(185, 167, 167, 0.733);
+        }
+        #middle
+        {
+            overflow: hidden;
+            padding-bottom: 50px;
+        }
+        #left
+        {
+            float: left; 
+            height: 400px; 
+            width:  529px; 
+            background: rgba(255, 255, 255, 0.514);
+            background-size: cover;
+            border-radius: 10px;
+            margin-right: 10px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #left a:first-child
+        {
+            display: block;
+            background-position: center;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            
+        }
+        #left a:first-child .example-image
+        {
+            margin-left: 210px;
+            background: rgba(0, 0, 0, 0.274);
+            border-radius: 10px;
+        }
+        #left .example-image
+        {
+            margin-left: 25px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #left p
+        {
+            margin-left: 185px;
+            font-size: 300%;
+            font-family: fantasy;
+            color: white;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right
+        {
+            float: right; 
+            height: 400px; 
+            width:  529px; 
+            background: rgba(255, 255, 255, 0.514);
+            border-radius: 10px;
+            margin-left: 10px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right a:first-child
+        {
+            display: block;
+            background-position: center;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            
+        }
+        #right a:first-child .example-image
+        {
+            margin-left: 210px;
+            background: rgba(0, 0, 0, 0.274);
+            border-radius: 10px;
+        }
+        #right .example-image
+        {
+            margin-left: 25px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right p
+        {
+            margin-left: 185px;
+            font-size: 300%;
+            font-family: fantasy;
+            color: white;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #middle2
+        {
+            overflow: hidden;
+            padding-bottom: 50px;
+        }
+        #left2
+        {
+            float: left; 
+            height: 400px; 
+            width:  529px; 
+            background: rgba(255, 255, 255, 0.514);
+            background-size: cover;
+            border-radius: 10px;
+            margin-right: 10px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #left2 a:first-child
+        {
+            display: block;
+            background-position: center;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            
+        }
+        #left2 a:first-child .example-image
+        {
+            margin-left: 210px;
+            background: rgba(0, 0, 0, 0.274);
+            border-radius: 10px;
+        }
+        #left2 .example-image
+        {
+            margin-left: 25px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #left2 p
+        {
+            margin-left: 185px;
+            font-size: 300%;
+            font-family: fantasy;
+            color: white;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right2
+        {
+            float: right; 
+            height: 400px; 
+            width:  529px; 
+            background: rgba(255, 255, 255, 0.514);
+            border-radius: 10px;
+            margin-left: 10px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right2 a:first-child
+        {
+            display: block;
+            background-position: center;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            
+        }
+        #right2 a:first-child .example-image
+        {
+            margin-left: 210px;
+            background: rgba(0, 0, 0, 0.274);
+            border-radius: 10px;
+        }
+        #right2 .example-image
+        {
+            margin-left: 25px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right2 p
+        {
+            margin-left: 185px;
+            font-size: 300%;
+            font-family: fantasy;
+            color: white;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #middle3
+        {
+            overflow: hidden;
+            padding-bottom: 50px;
+        }
+        #left3
+        {
+            float: left; 
+            height: 400px; 
+            width:  529px; 
+            background: rgba(255, 255, 255, 0.514);
+            background-size: cover;
+            border-radius: 10px;
+            margin-right: 10px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #left3 a:first-child
+        {
+            display: block;
+            background-position: center;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            
+        }
+        #left3 a:first-child .example-image
+        {
+            margin-left: 210px;
+            background: rgba(0, 0, 0, 0.274);
+            border-radius: 10px;
+        }
+        #left3 .example-image
+        {
+            margin-left: 25px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #left3 p
+        {
+            margin-left: 185px;
+            font-size: 300%;
+            font-family: fantasy;
+            color: white;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right3
+        {
+            float: right; 
+            height: 400px; 
+            width:  529px; 
+            background: rgba(255, 255, 255, 0.514);
+            border-radius: 10px;
+            margin-left: 10px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right3 a:first-child
+        {
+            display: block;
+            background-position: center;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            
+        }
+        #right3 a:first-child .example-image
+        {
+            margin-left: 210px;
+            background: rgba(0, 0, 0, 0.274);
+            border-radius: 10px;
+        }
+        #right3 .example-image
+        {
+            margin-left: 25px;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right3 p:first-child
+        {
+            text-align: center;
+            font-family: fantasy;
+            color: white;
+            font-size: 250%;
+            margin: 30px;
+            font-weight: 1500;
+            filter: drop-shadow(4px 4px 4px #000);
+        }
+        #right3 p
+        {
+            margin-top: 15px;
+            margin-left: 20px;
+            font-size: 200%;
+            font-family: fantasy;
+            text-align: left;
+            margin-top: 20px;
+            color: white;
+            filter: drop-shadow(4px 4px 4px #000);
+            
+        }
+        @media screen and (max-width: 1000px)
+        {
+            .container { width: 767px;}
+            audio { display: none; }
+            #menu { left: 160px; bottom: 3px;}
+            #top > iframe { left: 150px; top: 150px; }
+            #left { float: none; margin: 20px 130px; }
+            #right { float: none; margin: 0 130px; }
+            #left2 { float: none; margin: 20px 130px; }
+            #right2 { float: none; margin: 0 130px; }
+            #left3 { float: none; margin: 20px 130px; }
+            #right3 { float: none; margin: 0 130px; }
+        }
+        @media screen and (max-width: 800px)
+        {
+            .container { width: 600px;}
+            audio { display: none; }
+            #menu { left: 80px; bottom: 3px;}
+            #top > iframe { left: 70px; top: 150px; }
+            #left { float: none; margin: 20px 50px; }
+            #right { float: none; margin: 0 50px; }
+            #left2 { float: none; margin: 20px 50px; }
+            #right2 { float: none; margin: 0 50px; }
+            #left3{ float: none; margin: 20px 50px; }
+            #right3 { float: none; margin: 0 50px; }
+        }
+        @media screen and (max-width: 650px)
+        {
+            .container { width: 400px;}
+            audio { display: none; }
+            #menu { left: 25px; bottom: 3px; font-size: 60%; width: 330px;}
+            #top > iframe { left: 15px; top: 150px; width: 370px; }
+            #left { float: none; margin: 20px 10px; width: 380px; }
+            #right { float: none; margin: 0 10px; width: 380px; }
+            #middle a:first-child .example-image { margin-left: 140px; }
+            #middle p { margin-left: 120px; }
+            #left2 { float: none; margin: 20px 10px; width: 380px; }
+            #right2 { float: none; margin: 0 10px; width: 380px; }
+            #middle2 a:first-child .example-image { margin-left: 140px; }
+            #middle2 p { margin-left: 120px; }
+            #left3 { float: none; margin: 20px 10px; width: 380px; }
+            #right3 { float: none; margin: 0 10px; width: 380px; }
+            #middle3 a:first-child .example-image { margin-left: 140px; }
+            #middle3 p { margin-left: 120px; }
+            #divpop iframe { width: 300px; }
+            #divpop table { width: 300px;}
+            #right3 p { font-size: 150%; margin-left: 20px; }
+        }
+    </style>
+    <!-- Layer popup start --> 
+    <script language="JavaScript"> 
+    function setCookie( name, value, expiredays ) 
+    { 
+        var todayDate = new Date(); 
+        todayDate.setDate( todayDate.getDate() + expiredays ); 
+        document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+    }
+    function closeWin() 
+    { 
+        if ( document.notice_form.chkbox.checked )
+        { setCookie( "maindiv", "done" , 1 ); 
+    } 
+    document.all['divpop'].style.visibility = "hidden"; } 
+    function play()
+    {
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    </script> 
+</head>
+<body>
+    <div class="container">
+        <div id="top">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/O3xBRCqB3LE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Main</li>
+                </a>
+                <a href="introduce.html">
+                    <li>Introduce</li>
+                </a>
+                <a href="character.html">  
+                    <li>Character</li>
+                </a>
+                <a href="video.html">  
+                    <li>Video</li>
+                </a>
+            </ul>
+            </div>
+        </div>
+    <div class="container">
+        <div id="middle">
+            <div id="left">
+                <p>Worrior</p>
+                <div>
+                    <a class="example-image-link" href="job/worrior.jpg" data-lightbox="example-set1" data-title="전사"><img class="example-image" value="PLAY" onclick="play()" src="job/01-1.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/destroyer.jpg" data-lightbox="example-set1" data-title="디스트로이어"><img class="example-image" value="PLAY" onclick="play()" src="job/01-2.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/warlord.jpg" data-lightbox="example-set1" data-title="워로드"><img class="example-image" value="PLAY" onclick="play()" src="job/01-3.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/berserker.jpg" data-lightbox="example-set1" data-title="버서커"><img class="example-image" value="PLAY" onclick="play()" src="job/01-4.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/holyknight.jpg" data-lightbox="example-set1" data-title="홀리나이트"><img class="example-image" value="PLAY" onclick="play()" src="job/01-5.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                </div>
+            </div>
+            <div id="right">
+                <p>Fighter</p>
+                <div>
+                    <a class="example-image-link" href="job/fighter.jpg" data-lightbox="example-set2" data-title="무도가"><img class="example-image" value="PLAY" onclick="play()" src="job/02-1.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/battlemaster.jpg" data-lightbox="example-set2" data-title="배틀마스터"><img class="example-image" value="PLAY" onclick="play()" src="job/02-2.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/infighter.jpg" data-lightbox="example-set2" data-title="인파이터"><img class="example-image" value="PLAY" onclick="play()" src="job/02-3.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/soulmaster.jpg" data-lightbox="example-set2" data-title="기공사"><img class="example-image" value="PLAY" onclick="play()" src="job/02-4.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/lancemaster.png" data-lightbox="example-set2" data-title="창술사"><img class="example-image" value="PLAY" onclick="play()" src="job/02-5.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/striker.jpg" data-lightbox="example-set2" data-title="스트라이커"><img class="example-image" value="PLAY" onclick="play()" src="job/02-6.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                </div>
+            </div>
+        </div>
+        <div id="middle2">
+            <div id="left2">
+                <p>Hunter</p>
+                <div>
+                    <a class="example-image-link" href="job/hunter.jpg" data-lightbox="example-set3" data-title="헌터"><img class="example-image" value="PLAY" onclick="play()" src="job/03-1.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/devilhunter.jpg" data-lightbox="example-set3" data-title="데빌헌터"><img class="example-image" value="PLAY" onclick="play()" src="job/03-2.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/blaster.jpg" data-lightbox="example-set3" data-title="블래스터"><img class="example-image" value="PLAY" onclick="play()" src="job/03-3.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/hawkeye.jpg" data-lightbox="example-set3" data-title="호크아이"><img class="example-image" value="PLAY" onclick="play()" src="job/03-4.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/scouter.jpg" data-lightbox="example-set3" data-title="스카우터"><img class="example-image" value="PLAY" onclick="play()" src="job/03-5.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/gunslinger.jpg" data-lightbox="example-set3" data-title="건슬링어"><img class="example-image" value="PLAY" onclick="play()" src="job/03-6.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                </div>
+            </div>
+            <div id="right2">
+                <p>Magician</p>
+                <div>
+                    <a class="example-image-link" href="job/magician.jpg" data-lightbox="example-set4" data-title="마법사"><img class="example-image" value="PLAY" onclick="play()" src="job/04-1.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"><audio id="audio" src="mokoko.mp3"></audio></audio></a>
+                    <a class="example-image-link" href="job/bard.jpg" data-lightbox="example-set4" data-title="바드"><img class="example-image" value="PLAY" onclick="play()" src="job/04-2.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"><audio id="audio" src="mokoko.mp3"></audio></audio></a>
+                    <a class="example-image-link" href="job/summoner.jpg" data-lightbox="example-set4" data-title="서머너"><img class="example-image" value="PLAY" onclick="play()" src="job/04-3.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"><audio id="audio" src="mokoko.mp3"></audio></audio></a>
+                    <a class="example-image-link" href="job/arcana.jpg" data-lightbox="example-set4" data-title="아르카나"><img class="example-image" value="PLAY" onclick="play()" src="job/04-4.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"><audio id="audio" src="mokoko.mp3"></audio></audio></a>
+                </div>
+            </div>
+        </div>
+        <div id="middle3">
+            <div id="left3">
+                <p>Assassin</p>
+                <div>
+                    <a class="example-image-link" href="job/assassin.jpg" data-lightbox="example-set5" data-title="암살자"><img class="example-image" value="PLAY" onclick="play()" src="job/05-1.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/demonic.jpg" data-lightbox="example-set5" data-title="데모닉"><img class="example-image" value="PLAY" onclick="play()" src="job/05-2.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/blade.jpg" data-lightbox="example-set5" data-title="블레이드"><img class="example-image" value="PLAY" onclick="play()" src="job/05-3.png" alt="image-1" /><audio id="audio" src="mokoko.mp3"></audio></a>
+                    <a class="example-image-link" href="job/reaper.jpg" data-lightbox="example-set5" data-title="리퍼"><img class="example-image" value="PLAY" onclick="play()" src="job/05-4.png" alt="image-1"/><audio id="audio" src="mokoko.mp3"></audio></a>
+                </div>
+            </div>
+            <div id="right3">
+                <p>Job Classification<p>
+                <p>Large Classification : 5Job Series</p>
+                <p>Small Classification : 20Jobs</p>
+                <p>Ingame Classification : <br>Support or Dealer</p>
+                <p>Latest Release Job : Striker</p>
+            </div>
+        </div>
+    </div>
+    <div id="divpop" style="position:absolute;left:100px;top:150px;z-index:200;visibility:hidden;">
+        <table width=570px height=340px cellpadding=0 cellspacing=0>
+            <tr>
+                <td style="border:1px #666666 solid" height=auto align=center bgcolor=black>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/R5iQ32XxRKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </td> 
+            </tr> 
+            <tr> 
+                <form name="notice_form"> 
+                    <td height=25 align=right bgcolor="#000000" valign=middle> 
+                        <input type="checkbox" name="chkbox" value="checkbox"> 
+                        <font color=#eeeeee>오늘 하루 이 창을 열지 않음 </font>
+                        <a href="javascript:closeWin();"> 
+                            <font color=#eeeeee> <B>[닫기]</B> </font>
+                        </a> 
+                    </td> 
+                </form> 
+            </tr> 
+        </table> 
+    </div>
+    <script language="Javascript"> cookiedata = document.cookie; if ( cookiedata.indexOf("maindiv=done") < 0 ){ document.all['divpop'].style.visibility = "visible"; } else { document.all['divpop'].style.visibility = "hidden"; } </script>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
